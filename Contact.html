@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacts - Jean Michael Gardon</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #202020;
+      color: white;
+      font-family: Arial, sans-serif;
+      transform: scale(1.5);
+      transform-origin: top left;
+      width: 66.67%;
+    }
+
+    .navbar {
+      background-color: #001f4d;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-buttons a {
+      font-size: 14px;
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    .nav-buttons a.active {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 20px;
+}
+
+.photo {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.photo img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid gold;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.details h2 {
+  margin: 0 0 8px 0;
+  font-size: 22px;
+}
+
+.contact-details {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.address {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.map {
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.map img {
+  max-width: 200px;
+  height: auto;
+}
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-buttons">
+      <a href="about me.html">About Me</a>
+      <a href="my portolio.html">My Portfolio</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="photo">
+      <img src="images/469289211_591071706616499_3222184547383260336_n.jpg" alt="Jean Michael Gardon" />
+    </div>
+
+    <div class="details">
+      <h2>CONTACTS</h2>
+      <div class="contact-details">
+        <b>MOBILE:</b> 09123456781<br>
+        <b>EMAIL:</b> michaelgardon85@gmail.com<br>
+        <b>MESSENGER/FACEBOOK:</b> Jean Michael Gardon<br>
+        <b>INSTAGRAM:</b> JMGLITAX27<br>
+        <b>DISCORD:</b> JEAN MICHAEL GARDON
+      </div>
+      <div class="name">NAME: JEAN MICHAEL GARDON</div>
+      <div class="address">
+        ADDRESS: #1234 APPLE GRHAM SHAKE ST. PUBLACION CAMARIN<br>
+        CAMARINES SUR CITY
+      </div>
+    </div>
+
+    <div class="map">
+      
+      <img src="images/487679346_685756387260929_7937732668004787414_n.jpg" alt="Philippines Map" />
+    </div>
+  </div>
+
+</body>
+</html>
