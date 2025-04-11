@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jean Michael Gardon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #202020;
+      color: white;
+      transform: scale(1.5);
+      transform-origin: top left;
+      width: 66.67%;
+    }
+
+    .navbar {
+      background-color: #001f4d;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-buttons a {
+      font-size: 14px;
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    .nav-buttons a.active {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .main {
+      display: flex;
+      padding: 40px;
+      background-color: #202020;
+    }
+
+    .left-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: 2px solid #11294d;
+      padding-right: 30px;
+    }
+
+    .left-column img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      border: 3px solid gold;
+      object-fit: cover;
+    }
+
+    .left-column .name {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .left-column .contact-box {
+      background-color: #102b66;
+      padding: 10px 20px;
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 5px;
+    }
+
+    .right-column {
+      flex: 3;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      padding-left: 30px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .section p,
+    .section li {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .section ul {
+      padding-left: 18px;
+    }
+    .contact-box {
+  background-color: #102b66;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-buttons">
+      <a href="about me.html">About Me</a>
+      <a href="my portolio.html"class="active">My Portfolio</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="left-column">
+      <img src="images/469289211_591071706616499_3222184547383260336_n.jpg" alt="Jean Michael Gardon" />
+      <div class="name">NAME: JEAN MICHAEL GARDON</div>
+      <a href="Contact.html" class="contact-box">CONTACTS</a>
+    </div>
+
+    <div class="right-column">
+      <div>
+        <div class="section">
+          <h2>Personal Experience</h2>
+          <p>
+            I’ve worked on a variety of projects, refining my<br>
+            skills in programming and web design. From<br>
+            building responsive websites to creating custom<br>
+            software, I focus on delivering functional, user-<br>
+            friendly solutions. My experience with different<br>
+            programming languages and frameworks has<br>
+            enhanced my problem-solving abilities, while<br>
+            collaborating with diverse teams has sharpened<br>
+            my communication skills. Each project pushes me<br>
+            to learn, grow, and create innovative products<br>
+            that meet clients’ needs.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>Skills</h2>
+          <ul>
+            <li><strong>Customer Service:</strong> Great at making sure customers are happy and feel taken care of, even during busy times.</li>
+            <li><strong>Multitasking:</strong> Can handle multiple tasks at once, whether it’s taking orders, preparing food, or keeping things organized.</li>
+            <li><strong>Teamwork:</strong> Enjoy working with others and always ready to pitch in where needed.</li>
+            <li><strong>Time Management:</strong> Keep things moving quickly without compromising quality or service.</li>
+            <li><strong>Attention to Detail:</strong> Make sure orders are correct and everything’s in place before sending it out.</li>
+            <li><strong>Problem Solving:</strong> Able to think quickly and find solutions when things don’t go as planned.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div class="section">
+          <h2>Work Experience</h2>
+          <ul>
+            <li>
+              <strong>Cashier | McDonald’s | Jun 2018 – Dec 2019</strong><br>
+              Managed customer transactions, processed payments, and maintained a friendly and efficient service. Assisted with inventory management and restocking supplies to ensure smooth daily operations.
+            </li>
+            <li>
+              <strong>Cook | Wendy’s | Feb 2016 – May 2018</strong><br>
+              Prepared food orders according to company specifications and maintained consistent food quality. Worked in a team to meet customer demands during peak hours, ensuring all safety and health regulations were followed.
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Education</h2>
+          <p>
+            <strong>Bachelor’s Degree in Information Technology |</strong><br>
+            Our Lady of Fatima | 2028<br><br>
+            Focused on programming, web design, and software development. Gained hands-on experience with various programming languages and technologies.<br><br>
+            <strong>Future Plans:</strong><br>
+            Pursuing a Master’s in Information Technology and eventually a Doctorate in IT to deepen my knowledge and expand my expertise in the field.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
